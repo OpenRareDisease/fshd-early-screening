@@ -43,9 +43,9 @@ source .venv/bin/activate
 Bash
 pip install -r requirements.txt
 4. 配置环境变量
-复制 .env.example 为 .env
+复制 .env
 Bash
-copy .env.example .env  # Windows
+copy .env  # Windows
 # 或 macOS/Linux
 cp .env
 
