@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart
+openai==1.57.0                # 硅基流动 OpenAI SDK
+sqlalchemy==2.0.35
+aiosqlite                     # SQLite 支持
+pydantic-settings
+python-dotenv
