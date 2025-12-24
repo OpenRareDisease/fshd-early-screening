@@ -71,7 +71,7 @@ fshd-early-screening/
 │   ├── models/             # 数据库模型
 │   ├── schemas/            # Pydantic 模型
 │   └── services/           # 大模型调用
-├── .env.example            # 环境变量模板
+├── .env                    # 环境变量
 ├── requirements.txt        # 依赖列表
 ├── README.md               # 本文档
 ├── LICENSE                 # Apache 2.0 协议
