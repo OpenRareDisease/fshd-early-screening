@@ -5,7 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()  # 自动加载根目录 .env
 
 class Settings(BaseSettings):
-    SILICONFLOW_API_KEY: str
+    OPENAI_API_KEY: str = ""
+    OPENAI_BASE_URL: str = "https://api.siliconflow.cn/v1"
+    OPENAI_MODEL: str = "Qwen/Qwen2-VL-72B-Instruct"
+    OPENAI_TWO_PASS: bool = True
+    SCREENING_ALLOW_MOCK: bool = False
+    SILICONFLOW_API_KEY: str = ""
     SILICONFLOW_BASE_URL: str = "https://api.siliconflow.cn/v1"
     DATABASE_URL: str = "sqlite:///fshd.db"
     STORAGE_TYPE: str = "local"
